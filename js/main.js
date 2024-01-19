@@ -11,7 +11,7 @@ let zona_horaria = document.getElementsById("zona_horaria");
 const solicitudAPI = () => {
 
   axios // es una palabra reservada 
-    .get("https://salmacano.000webhostapp.com/GeoIPLocation")
+    .get("https://salmacano.000webhostapp.com/GeoIPLocation/index.php")
 
     .then(function (response) {
       // manejar respuesta exitosa
